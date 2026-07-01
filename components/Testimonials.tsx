@@ -1,9 +1,10 @@
 // TODO: Michael — replace these with real client testimonials (e.g. from your Vagaro or Yelp reviews).
 const TESTIMONIALS = [
-  { quote: 'Placeholder review \u2014 swap this out for a real client testimonial. Describe the experience and the results.', name: 'Client Name', tag: 'Verified Client' },
-  { quote: 'Placeholder review \u2014 a second real testimonial goes here. Reviews mentioning specific relief or a specific modality work especially well.', name: 'Client Name', tag: 'Verified Client' },
-  { quote: 'Placeholder review \u2014 a third real testimonial goes here. Keep them genuine; a few honest sentences beats a long generic one.', name: 'Client Name', tag: 'Verified Client' },
+  { quote: 'I can’t thank you enough! I was experiencing severe sciatic pain, and after my session I felt a noticeable difference. Your knowledge, skill, and care made me feel comfortable and confident throughout the massage . I finally felt some relief and am looking forward to continuing my recovery. Highly recommended!', name: 'Meowcatroblox Yt', tag: 'Verified Client' },
+  { quote: 'Michael is the best massage therapist around. His technique is excellent, and he personalizes each session based on your needs. He takes the time to listen and make sure problem areas are properly addressed. Highly recommend, he’s outstanding!', name: 'Joshua', tag: 'Verified Client' },
+  { quote: 'Michael is hands-down one of the best massage therapists I’ve ever seen. His Ashiatsu technique is incredible—deep, powerful, and unapologetically intense in the best way. He has incredibly strong hands and feet (yes, feet!) and uses them with precision and skill. Every session feels thoughtful, thorough, and intentionally tailored. You can tell he genuinely cares about his clients’ well-being. If you’re looking for serious bodywork that gets results, Michael is your guy.', name: 'Lindsey Phelps', tag: 'Verified Client' },
 ]
+
 
 export default function Testimonials() {
   return (
