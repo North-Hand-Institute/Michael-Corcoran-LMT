@@ -6,9 +6,10 @@ const HOURS = [
   { day: 'Tuesday', time: '9:00 AM \u2013 6:00 PM' },
   { day: 'Wednesday', time: '9:00 AM \u2013 6:00 PM' },
   { day: 'Thursday', time: '9:00 AM \u2013 6:00 PM' },
-  { day: 'Friday', time: '9:00 AM \u2013 4:00 PM' },
-  { day: 'Saturday', time: 'By appointment' },
+  { day: 'Friday', time: '9:00 AM \u2013 6:00 PM' },
+  { day: 'Saturday', time: '9:00 AM \u2013 3:00 PM' },
   { day: 'Sunday', time: 'Closed' },
+
 ]
 
 export default function Location() {
