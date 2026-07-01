@@ -3,11 +3,12 @@ const BOOKING_URL = 'https://www.vagaro.com/michaelcorcoranlmt/book-now'
 
 // TODO: Michael — replace these with your real Vagaro service names, durations, and prices.
 const SERVICES = [
-  { name: 'Integrative Therapeutic Massage', duration: '60 min', price: '$00', note: 'A fully customized session drawing on whichever modalities your body needs.' },
-  { name: 'Integrative Therapeutic Massage', duration: '90 min', price: '$00', note: 'The full experience \u2014 more time to address multiple areas in depth.' },
-  { name: 'Deep Tissue / Ashiatsu Focus', duration: '60 min', price: '$00', note: 'Targeted deep work for chronic tension and dense muscle groups.' },
-  { name: 'Shiatsu / Thai Bodywork', duration: '90 min', price: '$00', note: 'Meridian-based pressure and assisted stretching, performed clothed on the table.' },
-  { name: 'Cupping &amp; Myofascial Add-On', duration: '+15 min', price: '$00', note: 'Add decompression and fascial work to any session.' },
+  { name: 'Integrative Therapeutic Massage', duration: '60/75/90 min', price: '$115/144/172', note: 'A fully customized session drawing on whichever modalities your body needs.' },
+  { name: 'Ashiatsu', duration: '60/75/90 min', price: '$115/144/172', note: 'Barefoot massage \u2014 effectively addresses multiple areas in depth.' },
+  { name: 'Deep Tissue', duration: '60/75/90 min', price: '$115/144/172', note: 'Targeted deep work for chronic tension and dense muscle groups.' },
+  { name: 'Shiatsu / Thai Bodywork Floor', duration: '60/75/90 min', price: '$115/144/172', note: 'Meridian-based pressure and assisted stretching, performed clothed on the floor.' },
+  { name: 'Shiatsu / Thai Bodywork Table', duration: '60/75/90 min', price: '$115/144/172', note: 'Meridian-based pressure and assisted stretching, performed clothed on the table.' },
+  { name: 'Cupping &amp; Myofascial Add-On', duration: 'upon request', 'no additional charge', note: 'Add decompression and fascial work to any session.' },
 ]
 
 export default function Services() {
