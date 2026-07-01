@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- background -->
+  <rect width="512" height="512" rx="96" fill="#1a2640"/>
+  <!-- persimmon ring -->
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#c9572a" stroke-width="6"/>
+  <!-- gold inner ring -->
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#b8956a" stroke-width="2"/>
+  <!-- MC monogram -->
+  <text x="256" y="268" text-anchor="middle" font-family="Georgia, 'Cormorant Garamond', serif" font-size="188" font-weight="700" fill="#f5edd8" letter-spacing="-6">MC</text>
+  <!-- LMT -->
+  <text x="256" y="360" text-anchor="middle" font-family="Helvetica, 'Jost', sans-serif" font-size="52" letter-spacing="24" fill="#b8956a">LMT</text>
+</svg>
