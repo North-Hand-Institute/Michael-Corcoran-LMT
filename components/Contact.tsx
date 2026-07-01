@@ -10,7 +10,7 @@ export function Contact() {
     if (!name || !email || !message) { alert('Please fill in all fields.'); return }
     const subject = encodeURIComponent('Massage Inquiry from ' + name)
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)
-    window.location.href = `mailto:michaelcorcoranlmt@gmail.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:info@michaelcorcoranlmt.com?subject=${subject}&body=${body}`
   }
 
   const inputStyle: React.CSSProperties = {
@@ -46,7 +46,7 @@ export function Contact() {
               fontSize: '0.72rem', letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 500,
             }}>Book on Vagaro</a>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginTop: '2.5rem' }}>
-              {[['Email', 'michaelcorcoranlmt@gmail.com', 'mailto:michaelcorcoranlmt@gmail.com'], ['Phone', '(518) 330-7272', 'tel:5183307272'], ['Practitioner', 'Michael Corcoran, LMT', '']].map(([label, val, href]) => (
+              {[['Email', 'info@michaelcorcoranlmt.com', 'mailto:info@michaelcorcoranlmt.com'], ['Phone', '(518) 330-7272', 'tel:5183307272'], ['Practitioner', 'Michael Corcoran, LMT', '']].map(([label, val, href]) => (
                 <div key={label}>
                   <div style={{ fontSize: '0.62rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: '#c9572a', fontWeight: 500, marginBottom: '0.3rem' }}>{label}</div>
                   {href ? <a href={href} style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.1rem', color: '#1a2640', textDecoration: 'none' }}>{val}</a>
@@ -89,8 +89,8 @@ export function Footer() {
         <div style={{ fontSize: '0.7rem', color: 'rgba(245,237,216,0.4)', letterSpacing: '0.08em' }}>
           © {new Date().getFullYear()} Michael Corcoran, LMT
         </div>
-        <a href="mailto:michaelcorcoranlmt@gmail.com" style={{ fontSize: '0.75rem', color: '#b8956a', textDecoration: 'none' }}>
-          michaelcorcoranlmt@gmail.com
+        <a href="mailto:info@michaelcorcoranlmt.com" style={{ fontSize: '0.75rem', color: '#b8956a', textDecoration: 'none' }}>
+          info@michaelcorcoranlmt.com
         </a>
       </div>
     </footer>
