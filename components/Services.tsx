@@ -8,7 +8,7 @@ const SERVICES = [
   { name: 'Deep Tissue', duration: '60/75/90 min', price: '$115/144/172', note: 'Targeted deep work for chronic tension and dense muscle groups.' },
   { name: 'Shiatsu / Thai Bodywork Floor', duration: '60/75/90 min', price: '$115/144/172', note: 'Meridian-based pressure and assisted stretching, performed clothed on the floor.' },
   { name: 'Shiatsu / Thai Bodywork Table', duration: '60/75/90 min', price: '$115/144/172', note: 'Meridian-based pressure and assisted stretching, performed clothed on the table.' },
-  { name: 'Cupping &amp; Myofascial Add-On', duration: 'upon request', 'no additional charge', note: 'Add decompression and fascial work to any session.' },
+  { name: 'Cupping &amp; Myofascial Add-On', duration: 'upon request', price: 'no additional charge', note: 'Add decompression and fascial work to any session.' },
 ]
 
 export default function Services() {
