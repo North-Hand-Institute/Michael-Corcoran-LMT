@@ -7,7 +7,7 @@ const MODALITIES = [
   },
   {
     name: 'Ashiatsu',
-    origin: 'Barefoot Deep Tissue',
+    origin: 'Japan',
     body: 'Literally \u201cfoot pressure.\u201d Using my feet \u2014 with overhead bars for balance and control \u2014 I deliver broad, deep, gliding compression that the hands alone simply can\u2019t produce.',
     why: 'The broad surface of the foot spreads deep pressure over a wider area, so you get profound depth without the sharp, poking sensation of an elbow or thumb. It\u2019s ideal for large, dense muscle groups and for clients who love deep work but find it too intense when concentrated in a small point.',
   },
@@ -19,25 +19,25 @@ const MODALITIES = [
   },
   {
     name: 'Cupping',
-    origin: 'Myofascial Decompression',
+    origin: 'China and Japan',
     body: 'Suction cups create a gentle negative pressure that lifts and separates the skin, fascia, and muscle \u2014 the opposite of the compression used in most massage.',
     why: 'That decompression increases local circulation, hydrates and mobilizes restricted fascia, and helps flush stagnation from tissue that\u2019s been chronically tight. Many clients find it relieves stubborn adhesions and lingering soreness that respond slowly to hands-on pressure alone.',
   },
   {
     name: 'Myofascial Release',
-    origin: 'Fascial Bodywork',
+    origin: 'United States',
     body: 'Slow, sustained pressure applied directly into the fascia \u2014 the continuous web of connective tissue that wraps and links every muscle in the body.',
     why: 'When fascia becomes restricted, it can pull the body out of alignment and refer pain far from its source. Releasing it gently and patiently restores glide between tissue layers, eases chronic tension, and can resolve pain that never fully responds to muscle-focused work.',
   },
   {
     name: 'Deep Tissue',
-    origin: 'Therapeutic Depth',
+    origin: 'Europe and North America',
     body: 'Focused, deliberate pressure directed at the deeper layers of muscle and connective tissue, working with the grain of the fibers to reach chronic tension.',
     why: 'Deep tissue targets the persistent knots and adhesions behind long-standing pain and stiffness. Applied with the right pacing, it breaks up restriction, improves range of motion, and delivers lasting relief where lighter work only skims the surface.',
   },
   {
     name: 'Trigger Point',
-    origin: 'Neuromuscular Therapy',
+    origin: 'Europe and North America',
     body: 'Precise, targeted pressure held on \u201ctrigger points\u201d \u2014 tight, hyperirritable knots within a muscle that often refer pain to entirely different areas of the body.',
     why: 'Because a single trigger point can send pain to a distant region, resolving it can relieve headaches, referred aches, and mysterious pain whose true source isn\u2019t where you feel it. Deactivating these points interrupts the pain cycle and lets the muscle return to its normal resting length.',
   },
