@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 
 const BOOKING_URL = 'https://www.vagaro.com/michaelcorcoranlmt/book-now'
+const CE_SITE_URL = 'https://northhandinstitute.org'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
@@ -59,6 +60,16 @@ export default function Nav() {
             </li>
           ))}
           <li>
+            <a href={CE_SITE_URL} target="_blank" rel="noopener noreferrer" style={{
+              textDecoration: 'none', color: '#b8956a',
+              fontSize: '0.68rem', letterSpacing: '0.18em', textTransform: 'uppercase',
+              border: '1px solid rgba(184,149,106,0.4)', padding: '0.55rem 1.1rem',
+              whiteSpace: 'nowrap',
+            }}>
+              Continuing Education ↗
+            </a>
+          </li>
+          <li>
             <a className="nav-book-desktop" href={BOOKING_URL} target="_blank" rel="noopener noreferrer" style={{
               textDecoration: 'none', background: '#c9572a', color: '#f5edd8',
               padding: '0.6rem 1.4rem', fontSize: '0.68rem', letterSpacing: '0.18em', textTransform: 'uppercase', fontWeight: 500,
@@ -103,6 +114,15 @@ export default function Nav() {
             }}
           >{item}</a>
         ))}
+        <a href={CE_SITE_URL} target="_blank" rel="noopener noreferrer"
+          onClick={() => setMenuOpen(false)}
+          style={{
+            padding: '0.9rem 2rem', textDecoration: 'none',
+            color: '#b8956a', fontSize: '0.8rem',
+            letterSpacing: '0.2em', textTransform: 'uppercase',
+            borderBottom: '1px solid rgba(184,149,106,0.1)',
+          }}
+        >Continuing Education ↗</a>
         <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer"
           onClick={() => setMenuOpen(false)}
           style={{
