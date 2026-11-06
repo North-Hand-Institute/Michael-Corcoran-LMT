@@ -20,7 +20,7 @@ const MODALITIES = [
   {
   name: 'Stretching',
   origin: 'Yoga / Thai / Shiatsu Blend',
-  body: 'Open up tight hips, shoulders, and hamstrings with assisted stretching that blends yoga-informed ranges of motion, Thai-style compression, and shiatsu meridian work. Leave more mobile than you arrived.',
+  body: 'Open up tight neck, shoulders, hips, and hamstrings with assisted stretching that blends yoga-informed ranges of motion, Thai-style compression, and shiatsu meridian work. Leave more mobile than you arrived.',
   why: 'Combining three traditions means your body is moved through range, compressed, and supported all at once — the kind of multi-angle mobility work that\u2019s hard to do alone and that static stretching alone can\u2019t replicate.',
 },
   {
