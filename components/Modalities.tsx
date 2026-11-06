@@ -18,6 +18,12 @@ const MODALITIES = [
     why: 'Thai work restores mobility and length to muscles and joints that static massage can\u2019t reach the same way. It leaves the body feeling opened and lengthened, improves flexibility, and releases tension held deep in the hips, shoulders, and spine.',
   },
   {
+  name: 'Stretching',
+  origin: 'Yoga / Thai / Shiatsu Blend',
+  body: 'Open up tight hips, shoulders, and hamstrings with assisted stretching that blends yoga-informed ranges of motion, Thai-style compression, and shiatsu meridian work. Leave more mobile than you arrived.',
+  why: 'Combining three traditions means your body is moved through range, compressed, and supported all at once — the kind of multi-angle mobility work that\u2019s hard to do alone and that static stretching alone can\u2019t replicate.',
+},
+  {
     name: 'Cupping',
     origin: 'China and Japan',
     body: 'Suction cups create a gentle negative pressure that lifts and separates the skin, fascia, and muscle \u2014 the opposite of the compression used in most massage.',
