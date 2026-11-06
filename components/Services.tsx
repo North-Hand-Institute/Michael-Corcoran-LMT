@@ -8,6 +8,7 @@ const SERVICES = [
   { name: 'Deep Tissue', duration: '60/75/90 min', price: '$115/144/172', note: 'Targeted deep work for chronic tension and dense muscle groups.' },
   { name: 'Shiatsu / Thai Bodywork Floor', duration: '60/75/90 min', price: '$115/144/172', note: 'Meridian-based pressure and assisted stretching, performed clothed on the floor.' },
   { name: 'Shiatsu / Thai Bodywork Table', duration: '60/75/90 min', price: '$115/144/172', note: 'Meridian-based pressure and assisted stretching, performed clothed on the table.' },
+  { name: 'Stretching', duration: '45 min', price: '$85', note: 'A full-body stretching protocol that opens tight neck, shoulders, hips, and hamstrings, drawing on yoga, Thai massage, and shiatsu meridian technique.' },
   { name: 'Cupping &amp; Myofascial Add-On', duration: 'upon request', price: 'no additional charge', note: 'Add decompression and fascial work to any session.' },
 ]
 
