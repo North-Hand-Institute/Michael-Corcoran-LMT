@@ -70,7 +70,7 @@ export default function Hero() {
         {/* Right */}
         <div className="hero-right" style={{ position: 'relative', overflow: 'hidden', background: '#e8d8b8', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           {/* TODO: replace /logo-placeholder.svg with your own logo file */}
-          <img src="/logo-placeholder.svg" alt="Michael Corcoran LMT" className="hero-right-img" />
+             <img src="/logo-hero.png" alt="Michael Corcoran LMT" className="hero-right-img" />
         </div>
       </section>
 
